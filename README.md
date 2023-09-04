@@ -15,7 +15,11 @@ pip install flask
 ```
 pip install -U python-dotenv
 ```
-5. Run the application using the following command.
+5. Create a ` .env ` file and add OpenAI API Key as :-
+```
+OPENAI_API_KEY=YOUR-API-KEY
+```
+6. Run the application using the following command.
 ```
 python app.py
 ```
